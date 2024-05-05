@@ -1,4 +1,4 @@
-# Integrity Managament in Graph Databases
+# Integrity Managament in Graph Databases using E/R keys
 
 ## Introduction: 
 
