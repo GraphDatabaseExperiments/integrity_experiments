@@ -27,8 +27,8 @@ The TPC-H benchmark is provided on the official [TPC website](https://www.tpc.or
 
 The experiments in our research on E/R keys are outlined in the following:
 
-- 1.) [How can E/R keys improve entity integrity management?]()
-- 2.) [How can E/R keys improve referential integrity management?]()
+- 1.) [How can E/R keys improve entity integrity management?](https://github.com/GraphDatabaseExperiments/integrity_experiments/tree/main/entity_integrity)
+- 2.) [How can E/R keys improve referential integrity management?](https://github.com/GraphDatabaseExperiments/integrity_experiments/tree/main/referential_integrity)
 
 
 Detailed information on the results of these experiments and instructions on how to replicate them can be found in this repository in the experiments folder or by clicking on the links above. In what follows we like to provide an overview on the different experiments.
