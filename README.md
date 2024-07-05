@@ -41,6 +41,4 @@ We highlighted the benefits of E/R keys enforced on E/R graphs by manually check
 
 The benefits of our modelling approach with respect to referential integrity management has been shown through the execution of update propagations. Here, we updated properties on nodes that might require updates of the same property on differenlty labelled nodes where they serve as foreign key in TPC-H. For the same property this might result in a different update propagation depending on whether TPC-H had been modelled adhering to relational, mixed or graph semantics.
 
-Text missing
-
 
