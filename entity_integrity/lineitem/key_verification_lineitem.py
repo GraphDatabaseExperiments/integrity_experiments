@@ -123,8 +123,8 @@ def write_to_excel(filename, sheetname, experiment_name, heading: list, content:
 def main():
 
     #local bolt and http port, etc:
-    local_bolt = "bolt://localhost:7687"
-    local_pw = "Pskav752$api"
+    local_bolt = <local_bolt>
+    local_pw = <password>
     local_user = "neo4j"
 
     # Initialise DB
@@ -159,9 +159,9 @@ def main():
 
     for index in range(len(percentage_to_update)):
 
-        runs = 1
+        runs = 20
 
-        outliers = 0
+        outliers = 5
 
         for i in range(0, runs):
             
