@@ -26,7 +26,7 @@ Once the connection to the database is established the screen should look as fol
 
 In case this does not happen and there are problems with establishing a connection a renewed login into the Sandbox might solve the issue.
 
-To import all required csv files correctly we refer to the csv files provided under [Datasets](https://github.com/GraphDatabaseExperiments/er_graph_experiments/tree/main/datasets) and the incstructions on [How to Import CSV data into Neo4j](https://neo4j.com/docs/getting-started/data-import/csv-import/).
+To import all required csv files correctly we refer to the csv files provided under [Datasets](https://github.com/GraphDatabaseExperiments/integrity_experiments/tree/main/datasets) and the incstructions on [How to Import CSV data into Neo4j](https://neo4j.com/docs/getting-started/data-import/csv-import/).
 
 
 ### Neo4j Desktop:
