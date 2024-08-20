@@ -80,7 +80,7 @@ Once all is set up the database should look as follows.
 
 ## First experiments using Neo4j:
 
-Once all required csv files are imported and the graph translation of TPC-H is completed we are able to run the first experiments. Here we outline the Cypher statements used for the [Verification of E/R keys](https://github.com/GraphDatabaseExperiments/er_graph_experiments/tree/main/entity_integrity) for TPC-H modelled adhering to graph semantics.
+Once all required csv files are imported and the graph translation of TPC-H is completed we are able to run the first experiments. Here we outline the Cypher statements used for the [Verification of E/R keys](https://github.com/GraphDatabaseExperiments/integrity_experiments/tree/main/entity_integrity) for TPC-H modelled adhering to graph semantics.
 
 The following query illustrates the validity of the E/R key on PARTSUPP nodes:
 
@@ -98,7 +98,7 @@ WHERE id(l1) < id(l2) AND l1.l_linenumber = l2.l_linenumber
 RETURN pattern
 ```
 
-For details around the experiments conducted in our research we refer to the respective folders that contain information on the experiments around [Entity Integrity](https://github.com/GraphDatabaseExperiments/er_graph_experiments/tree/main/entity_integrity) and [Referential Integrity](https://github.com/GraphDatabaseExperiments/er_graph_experiments/tree/main/referential_integrity) management in E/R graphs.
+For details around the experiments conducted in our research we refer to the respective folders that contain information on the experiments around [Entity Integrity](https://github.com/GraphDatabaseExperiments/integrity_experiments/tree/main/entity_integrity) and [Referential Integrity](https://github.com/GraphDatabaseExperiments/integrity_experiments/tree/main/referential_integrity) management in E/R graphs.
 
 
 ## How to run Python and Neo4j using Neo4j Python Driver: 
